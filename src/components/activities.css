@@ -1,0 +1,98 @@
+/* activities.css */
+.activities-container {
+  padding: 20px;
+}
+
+.activities-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.activities-title {
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.activities-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.activities-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.activities-button:hover {
+  background-color: #0056b3;
+}
+
+.activities-message {
+  color: green;
+  text-align: center;
+}
+
+.activities-list {
+  margin-top: 20px;
+}
+
+.activities-list-title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.activities-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.activities-table th, .activities-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.activities-table th {
+  background-color: #f1f1f1;
+}
+
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
